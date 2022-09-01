@@ -89,13 +89,13 @@ public class SimplePresentationScreen extends JFrame {
 		textFieldApellido.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		textFieldApellido.setEditable(false);
 		textFieldApellido.setColumns(10);
-		textFieldApellido.setText(studentData.getFirstName());
+		textFieldApellido.setText(studentData.getLastName());
 		
 		textFieldNombre = new JTextField();
 		textFieldNombre.setBackground(Color.WHITE);
 		textFieldNombre.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		textFieldNombre.setEditable(false);
-		textFieldNombre.setText(studentData.getLastName());
+		textFieldNombre.setText(studentData.getFirstName());
 		textFieldNombre.setColumns(10);
 		
 		textFieldMail = new JTextField();
